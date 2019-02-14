@@ -3,9 +3,9 @@
 ## What is this? ##
 This is a simple bash script intended to help folks update their git
 remotes when a GitHub organization undergoes a name change.  The tool
-updates the default git remote (origin) for all git repositories
+updates the default git remote (`origin`) for all git repositories
 directly inside the specified directory.  The git remotes are updated
-by replacing instances of old\_org\_name with new\_org\_name.
+by replacing instances of `old_org_name` with `new_org_name`.
 
 ```
 update_git_repos.sh old_org_name new_org_name directory
